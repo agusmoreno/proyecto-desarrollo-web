@@ -1,85 +1,91 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Fundación Cor - Contacto</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;700&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/5bd673b5fd.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fundación Cor - Contacto</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/5bd673b5fd.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
-            <img class="navbar-brand" src="images/logo-2.png" alt="">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-              <div class="navbar-nav">
-                  <a class="nav-link section" href="index.html">Inicio</a>
-                  <a class="nav-link section" href="quienes-somos.html">Quiénes somos</a>
-                  <a class="nav-link section" href="voluntarios.html">Voluntarios</a>
-                  <a class="nav-link section" href="donar.html">Donar</a>
-                  <a class="nav-link section" href="contacto.html">Contacto</a>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <img class="navbar-brand" src="images/logo-2.png" alt="">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link section" href="index.html">Inicio</a>
+            <a class="nav-link section" href="quienes-somos.html">Quiénes somos</a>
+            <a class="nav-link section" href="voluntarios.html">Voluntarios</a>
+            <a class="nav-link section" href="donar.html">Donar</a>
+            <a class="nav-link section" href="contacto.html">Contacto</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div class="row">
+      <div class="col-md-4"></div>
+      <div class="col-md-4">
+        <form>
+          <div class="row">
+                <label class="col-md-3">Nombre </label>
+                <input class="col-md-9" type="text" name="nombre">
+          </div>
+          <div class="row contact-email">
+                <label class="col-md-3">Email </label>
+                <input class="col-md-9" type="email" name="email"> 
+          </div>
+          <div class="row contact-mensaje">
+              <label class="col-md-3">Mensaje</label>
+              <textarea class="col-md-9" name="mensaje"></textarea>
+            <div class="row">
+              <div class="col-md-12 contact-button">
+                <input type="submit" class="btn btn-send contact-button" value="Enviar">
               </div>
             </div>
           </div>
-          </nav>
-    </header>
-    <main>
-            <form>
-                <fieldset>
-                <legend>Contactenos</legend>
-                <label for="nombre">Nombre:</label>
-                <input type="text" name="nombre">
-                <br>
-                <label for="email">Email:</label>
-                <input type="email" name="email">
-                <br>
-                <label for="email">¿Como te enteraste de nosotros?</label>
-                <select name="como-te-enteraste-de-nosotros">
-                        <option value="familiar-amigo">Familiar/Amigo</option>
-                        <option value="facebook">Facebook</option>
-                        <option value="instagram">Instagram</option>
-                        <option value="otro">Otro</option>
-                </select>
-                <br>
-                <label for="desea-recibir-el-newsletter">Desea recibir el Newsletter?</label>
-                <input type="checkbox" name="desea-recibir-el-newsletter" value="0">
-                <br>
-                <label for="comentario">Comentario</label>
-                <br>
-                <textarea name="comentario" id="" cols="30" rows="10"></textarea>
-                <br>
-                <input type="reset" name="limpiar" value="Limpiar">
-                <input type="submit" name="enviar" value="Enviar">
-                </fieldset>
 
-            </form>
-    </main>
-    <footer>
-      <div class="container">
-        <div class="row">
-      <div class="col-sm" >
+
+        </form>
+      </div>
+      <div class="col-md-4"></div>
+    </div>
+  </main>
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm">
           <!--logo-->
           <!-- <img class="footer__logo" src="images/logo-blanco-2.png" alt="logo"> -->
+        </div>
+        <div class="col-sm">
+          <p class="footer__email"> fundacioncor@gmail.com</p>
+        </div>
+        <div class="col-sm">
+          <a class="footer__facebook" href="https://www.facebook.com/FUNDACIONCORONG"><i class="fab fa-facebook-f"></i>
+          </a>
+        </div>
       </div>
-      <div class="col-sm" >
-          <p class="footer__email"> fundacioncor@gmail.com</p>    
-      </div>
-      <div class="col-sm" >
-        <a class="footer__facebook" href="https://www.facebook.com/FUNDACIONCORONG"><i class="fab fa-facebook-f"></i> </a>
-      </div>
-    </div>
     </div>
   </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
